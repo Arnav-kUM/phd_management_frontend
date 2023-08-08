@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 const LogTable = ({ student_id, showAddNewLog, onCancelAddLog }) => {
-  const url = "http://127.0.0.1:8000/api/students";
+  const url = "https://sdf-mc73.onrender.com/api/students";
 
   const [logs, setLogs] = useState([]);
   const [columns, setColumns] = useState([]);

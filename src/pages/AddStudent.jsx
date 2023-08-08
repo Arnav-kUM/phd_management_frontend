@@ -5,7 +5,7 @@ import * as XLSX from 'xlsx';
 
 
 const AddStudent = () => {
-  var url = "http://127.0.0.1:8000/api/students";
+  var url = "https://sdf-mc73.onrender.com/api/students";
 
   const [columns, setColumns] = useState([]);
   const [rows, setRows] = useState([]);

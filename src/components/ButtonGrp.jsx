@@ -6,7 +6,7 @@ import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import ReactHTMLTableToExcel from "react-html-table-to-excel-3";
 
 function ButtonGrp({ onFilter, onSearch, searchtext }) {
-  const url = "http://127.0.0.1:8000/api/students";
+  const url = "https://sdf-mc73.onrender.com/api/students";
   const [showFilterList, setShowFilterList] = useState(false);
   const [selectedFilters, setSelectedFilters] = useState([]);
   const [batches, setBatches] = useState([]);

@@ -5,7 +5,7 @@ import useDebounce from "../hooks/use_debounce";
 import LibraryBooksIcon from "@mui/icons-material/LibraryBooks";
 
 const DatabaseTable = ({ filter, search }) => {
-  const url = "http://127.0.0.1:8000/api/students";
+  const url = "https://sdf-mc73.onrender.com/api/students";
 
   const [data, setData] = useState([]);
   const [columns, setColumns] = useState([]);
